@@ -1,0 +1,423 @@
+*{
+	margin : 0px;
+	padding: 0px;
+	
+}
+
+body{
+	background-image: url(img/back.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+.container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	background: rgba(0,0,0,0.5);
+	position: fixed;
+	width: 100%;
+	height: 80px;
+
+}
+
+.header h1 a{
+	text-decoration: none;
+	color: #4FE8FF;
+}
+
+.header #cari{
+	padding: 0px 50px 0px 50px;
+	border: 2px solid #00FF96;
+	font-size: 20px;
+	margin: 20px 450px;
+	line-height: 30px;
+	position: absolute;
+	width: 280px;
+	left: 200px;
+}
+
+
+#sidebar{
+	position: fixed;
+	width: 200px;
+	height: 100%;
+	background: #151719;
+	left: -200px;
+	transition: all 500ms linear;
+}
+
+#sidebar.active{
+	left: 0px;
+}
+
+#sidebar ul li{
+	list-style: none;
+	margin: 20px;
+	border-bottom: 1px solid rgba(100,100,100,0.3);
+	font-size: 16px;
+}
+
+#sidebar ul li a{
+	text-decoration: none;
+	color: rgba(230,230,230,0.9);
+}
+
+#sidebar ul li a:hover{
+	color: #0CFF00;
+}
+
+#sidebar .toggle-btn{
+	position: absolute;
+	top: 20px; 
+	left: 230px;
+}
+
+#sidebar .toggle-btn span{
+	display: block;
+	width: 30px;
+	height: 5px;
+	background: #fff ;
+	margin: 5px 0px;
+
+}
+
+.content h1{
+	text-align: center;
+	font-size: 60px;
+	color: white;
+	margin: 30px;
+}
+
+.content h2{
+	text-align: center;
+	font-size: 45px;
+	background: #1BDE60;
+	width: 400px;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin : 0 auto;
+}
+
+.content h2 a{
+	text-decoration: none;
+	color: black
+}
+
+.content .playlist{
+	padding: 2px;
+	margin: 40px;
+}
+
+.content .playlist img{
+	margin-left: 75px;
+}
+
+.footer{
+	line-height: 30px;
+	padding: 5px;
+	background-color: rgba(0,0,0,0.9);
+	text-align: center;
+	position: relative;
+	top: 270px;
+	color: rgba(255,255,255,0.9);
+	font-size: 13px;
+	letter-spacing: 2px;
+	clear: both;
+}
+
+
+#halaman-login{
+	background: lightskyblue;
+	font-family: sans-serif;
+}
+
+
+.login{
+	padding: 16px;
+	margin: 2em auto;
+	margin-top: 150px;
+	width: 272px;
+	background: #fff;
+	border-radius: 3px;
+}
+
+label{
+	font-size: 10pt;
+	color: #555;
+}
+
+input[type="text"], input[type="password"], textarea{
+	padding: 6px;
+	width: 94%;
+	background: #efefef;
+	border: 0;
+	font-size: 13px;
+	margin: 6px 0px;
+}
+
+.tombol{
+	background: black;
+	color: white;
+	border: none;
+	padding: 5px 8px;
+	margin: 12px 0px;
+}
+
+#kembali {
+	width: 25%;
+	margin: 0 auto;
+}
+
+#kembali a img {
+	display: block;
+	margin : 0 auto;
+}
+
+
+/*---------------download.html-----------------*/
+#logo{
+	float: left;
+	margin-top: -20px;
+	position  : absolute;
+	top: 10px;
+}
+#halaman-download{
+	background: #905FFF;
+}
+.header nav ul{
+	clear: both;
+	float: right;
+	position: absolute;
+	top: 35px;
+	right: 65px;
+}
+.header nav ul li{
+	list-style: none;
+	display: inline;
+}
+#vertical-bar{
+	color: white;
+	cursor: default;
+}
+.header nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	margin: 15px;
+	letter-spacing: 0.5px;
+
+}
+.header nav ul li a:hover{
+	color: #00FCFF;
+}
+.content-download{
+	clear: both;
+	font-size: 28px;
+	width: 700px;
+	position: relative;
+	top: 80px;
+	left: 120px;
+
+}
+.content-download h1{
+	color: rgba(250,250,250,0.9);
+}
+.content-download p{
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+.content-download p a{
+	color: white;
+}
+.barcode{
+	padding: 20px;
+}
+/*---------------------------------------------*/
+
+/*------------------premium.html---------------*/
+#halaman-premium{
+	background-image: url(img/bg.jpg);
+	background-size: cover;
+	
+}
+#premium{
+	background: rgba(0,0,0,0);
+}
+
+.content-pr{
+	width: 50%;
+	margin : 0 auto;
+}
+
+.content-pr .promotion-item{
+	padding: 5px 2px;
+	width: 300px;
+	height: 300px;
+	border-radius: 5px;
+	margin-bottom: 50px;
+	float: left;
+	margin: 4px;
+	margin-top: 20em;
+}
+.content-pr .promotion-item:hover{
+	-webkit-box-shadow:0px 14px 32px 0px rgba(0, 0, 0, 0.2);
+	transform: translateY(-5px);
+	width: 310px;
+	height: 310px;
+}
+
+.content-pr .promotion-item .promotion-header{
+	margin: 30px;
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+	letter-spacing: -0.015em;
+}
+
+.promotion-header h3{
+	font-size: 24px;
+	font-weight: 400;
+	margin: 3px;
+}
+.promotion-header p{
+	font-weight: 400;
+	font-size: 13px;
+	letter-spacing: -0.01em;
+}
+
+.promotion-footer a{
+	background-color : #00FCFF;
+	border-style: none;
+	padding: 10px 25px;
+	border-radius: 25px;
+	text-decoration: none;
+	color: #000000;
+
+}
+.promotion-footer a:hover{
+	background-color: #fff;
+}
+.promotion-footer u{
+	color: #00FCFF;
+}
+
+.promotion-footer img{
+	margin-top: -10px;
+}
+.promotion-footer h3{
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	position: relative;
+	left: 50px;
+}
+.promotion-footer p{
+	margin-top: 12px;
+	font-weight: 400;
+	font-size: 13px;
+	letter-spacing: -0.01em;
+	text-align: center;
+	padding: 2px;
+	color: white;
+
+}
+
+#one{
+	background: #9E9E9E;
+}
+#two{
+	background: #7279D6 ;
+}
+#three{
+	background: #D01DB9;
+}
+
+#footer-pr{
+	top: 190px;
+}
+/*----------------------------------------------*/
+
+/*/*-------------------contact.html----------------*/
+.wrapper{
+	width: 760px;
+	margin: auto;
+	background: white;
+	position: relative;
+	top: 180px;
+
+}
+.wrapper .content-ct{
+	padding: 20px;
+}
+
+.wrapper .content-ct .email{
+	margin-top: 20px;
+}
+.wrapper .content-ct .email p{
+	float: right;
+	letter-spacing: 1.5px;
+}
+
+#footer-contact{
+	width: 760px;
+	margin: auto;
+	top: 180px;
+}
+/*----------------------------------------------*/
+
+/*---------------------about.html---------------*/
+ .halaman-about{
+	font: 16px/28px arial,sans-serif;
+	background : #eaeaea;
+
+}
+#about{
+	background-color: #000000;
+}
+.container-about{
+	position: relative;
+	top: 140px;
+	background: white;
+	width: 960px;
+	margin: auto;
+	z-index: -1;
+}
+.content-about{
+	padding: 20px;
+}
+.content-about h2{
+	font-size: 28px;
+	font-weight: bold;
+}
+.content-about .penulis{
+	margin-top: -5px;
+	font-size: 11px;
+	letter-spacing: 0px;
+}
+.content-about a{
+	text-decoration: none;
+	color: #7AD3BB;
+}
+.content-about p{
+	font-size: 13px;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+.content-about ul{
+	position: relative;
+	left: 30px;
+}
+.content-about ul li{
+	font-size: 12px;
+}
+
+#footer-about{
+	top: 200px;
+}
+
+/*------------------------------------------*/
